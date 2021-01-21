@@ -1,0 +1,25 @@
+{
+  "name": "mina-countdown",
+  "version": "1.0.0",
+  "description": "一个轻量、方便的小程序 倒计时 逻辑处理库",
+  "main": "mina-countdown.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yrobot/mina-countdown.git"
+  },
+  "keywords": [
+    "yrobot",
+    "mina",
+    "countdown"
+  ],
+  "author": "yrobot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yrobot/mina-countdown/issues"
+  },
+  "homepage": "https://github.com/Yrobot/mina-countdown#readme",
+  "dependencies": {
+    "tiny-timer": "^1.6.0"
+  }
+}
