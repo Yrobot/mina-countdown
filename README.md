@@ -93,7 +93,9 @@ Page({
 #### 简单展示
 
 ```html
-<text wx:if="{{countdown>0}}"> 倒计时{{countdown}}秒 </text> <text wx:else> 开始倒计时 </text>
+<text wx:if="{{countdown>0}}"> 倒计时{{countdown}}秒 </text>
+
+<text wx:else> 开始倒计时 </text>
 ```
 
 #### 配合 mina-tool 的 wxs 工具 formatCountdown 优化展示
@@ -101,7 +103,9 @@ Page({
 使用 mina-tool,请参看 [mina-tool.wxs](https://github.com/Yrobot/mina-tool#wxs)
 
 ```html
-<wxs src="mina-tool/wxs/format.wxs" module="format" /> <text> {{format.formatCountdown(countdown)}} </text>
+<wxs src="mina-tool/wxs/format.wxs" module="format" />
+
+<text> {{format.formatCountdown(countdown)}} </text>
 ```
 
 ---
