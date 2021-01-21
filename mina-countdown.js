@@ -7,10 +7,13 @@ const DEFAULT_OPTIONS = {
 };
 
 export default class Countdown {
-  _name = '';
-  _option = {};
-  _timer = new Timer({ interval: 1000 });
   constructor(_page, name, option = {}) {
+    // init
+
+    this._name = '';
+    this._timer = new Timer({ interval: 1000 });
+    this._option = { ...DEFAULT_OPTIONS, ...option };
+
     try {
       if (this._checkBeforeCreate(_page, name)) {
         this._name = name;
@@ -19,7 +22,6 @@ export default class Countdown {
     } catch (error) {
       console.error(error);
     }
-    this._option = { ...DEFAULT_OPTIONS, ...option };
     this._distributeHandlers();
   }
   _distributeHandlers() {
