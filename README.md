@@ -24,9 +24,11 @@
 
 ## demo 展示
 
-1. demo1：监听 pressMove 拖拽 手势
-   | ![](https://636f-could-test-1258393788.tcb.qcloud.la/README/touchmove.gif) | ![](https://636f-could-test-1258393788.tcb.qcloud.la/QRCode/pages-mina-countdown-demo1-index_qrcode%3D1.jpg) |
-   | -------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+1. demo1：快速实现发送验证码倒计时
+   | ![](https://636f-could-test-1258393788.tcb.qcloud.la/README/mina-countdown-dem01-2.jpeg) |
+   | ----- |
+   | ![](https://636f-could-test-1258393788.tcb.qcloud.la/README/mina-countdown-demo1-1.jpeg) |
+   | ![](https://636f-could-test-1258393788.tcb.qcloud.la/QRCode/pages-mina-countdown-demo1-index_qrcode=1.jpg) |
 
 ## 使用方法
 
@@ -104,8 +106,10 @@ Page({
 
 ```html
 <wxs src="mina-tool/wxs/format.wxs" module="format" />
-
-<text> {{format.formatCountdown(countdown)}} </text>
+<!-- 00:01:02 -->
+<text> {{format.formatCountdown(countdown,'hh:mm:ss')}} </text>
+<!-- 01:02 -->
+<text>{{format.formatCountdown(countdown,'mm:ss')}}</text>
 ```
 
 ---
