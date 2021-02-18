@@ -24,11 +24,13 @@
 
 ## demo 展示
 
-1. demo1：快速实现发送验证码倒计时
-   | ![](https://636f-could-test-1258393788.tcb.qcloud.la/README/mina-countdown-dem01-2.jpeg) |
-   | ----- |
-   | ![](https://636f-could-test-1258393788.tcb.qcloud.la/README/mina-countdown-demo1-1.jpeg) |
-   | ![](https://636f-could-test-1258393788.tcb.qcloud.la/QRCode/pages-mina-countdown-demo1-index_qrcode=1.jpg) |
+1. demo1：快速实现发送验证码倒计时 [**查看 demo 代码**](https://github.com/Yrobot/mina-tools-client/tree/master/miniprogram/pages/mina-countdown/demo1)
+   | ![](https://636f-could-test-1258393788.tcb.qcloud.la/README/mina-countdown-dem01-2.jpeg) | ![](https://636f-could-test-1258393788.tcb.qcloud.la/README/mina-countdown-demo1-1.jpeg) | ![](https://636f-could-test-1258393788.tcb.qcloud.la/QRCode/pages-mina-countdown-demo1-index_qrcode=1.jpg) |
+   | ----- | ----- | ----- |
+
+2. demo2: 时间结点倒计时 [**查看 demo 代码**](https://github.com/Yrobot/mina-tools-client/tree/master/miniprogram/pages/mina-countdown/demo2)  
+   | ![ ](https://mmbiz.qpic.cn/mmbiz_png/Z3Bib6gP5N9ibyQgr7hsqOibictmPGkKZA9aZDic48GUNYOALZfvJnqsn3GfuJX7v7xuAbwefHpaaV9IRfqabUeSQew/0?wx_fmt=png) | ![ ](https://mmbiz.qpic.cn/mmbiz_png/Z3Bib6gP5N9ibyQgr7hsqOibictmPGkKZA9a2z9xxLxdzACLYa9Tp860mhdb5635TpAoFEL0micfg2ibGQW219OP6BibA/0?wx_fmt=png) |
+   | ----- | ----- |
 
 ## 使用方法
 
