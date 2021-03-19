@@ -1,5 +1,7 @@
 # mina-countdown
 
+![](https://track.yrobot.top/ga-beacon/UA-190592680-2/mina-countdown/readme?flat)
+
 `mina-countdown`，一个方便、轻量的 **小程序** 倒计时逻辑库  
 时间处理逻辑使用`tiny-timer`库，在此做出声明和感谢
 
